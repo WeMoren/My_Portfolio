@@ -1,0 +1,473 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:ubuntu; 
+    scroll-behavior: smooth;
+  }
+
+  body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+  }
+  
+  #navbar{
+    width:100vw;
+    height:75px;
+    position:fixed;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background-color:#191970;
+    z-index:10;
+  }
+
+  .side-navbar{
+    width: 250px;
+    background-color: #191970;
+    display: none;
+    z-index: 1000;
+    height: 100vh;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    box-shadow:1px 1px 78px 2px #ccc;
+  }
+
+  .side-nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .side-nav-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: -70px;
+    position: absolute;
+    top: 150px;
+    left: 75px;
+  }
+
+  .side-nav-list{
+    list-style-type: none;
+  
+  }
+
+  .side-nav-list a{
+    text-decoration: none;
+    color: rgb(176, 17, 176);
+    transition: .3s ease-in-out;
+    font-size: 20px;
+  }
+
+  .side-nav-list a:hover{
+    color: #ccc;
+  }
+
+  #closeSideNav{
+    position: absolute;
+    left: 12px;
+    top: 16px;
+    width:25px;
+    height: 25px;
+    color: #716f6f;
+    display: flex;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+  }
+
+  #closeSideNav:hover{
+    color: #f4f1f1;
+  }
+
+  #openSideNav{
+    position: absolute;
+    left: 35px;
+    color: #ccc;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+  }
+
+  .side-logo{
+    position: absolute;
+    top: 3%;
+    left: 30%;
+    cursor: pointer;
+    background:linear-gradient(45deg, cyan, magenta);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+  }
+
+  .side-nav-btn{
+    position: absolute;
+    left:23px;
+    top: 300px;
+    height:45px ;
+    width: 80%;
+    background-color: rgb(2, 103, 90);
+    border:none;
+    border-radius: 3px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+  }
+
+  .side-nav-btn:hover{
+    background-color: rgb(4, 131, 131);
+  }
+  
+  .logo{
+    margin-left:16px;
+    cursor:pointer;
+    background:linear-gradient(45deg, cyan, magenta);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+  }
+  
+  .nav-items{
+    display:flex;
+    gap:12px;
+  }
+  
+  .nav-list{
+    list-style-type:none;
+  }
+  
+  #nav-links{
+    text-decoration:none;
+    color:magenta;
+    transition:.5s ease-in-out;
+  }
+  #nav-links:hover{
+    text-decoration:underline;
+    color:#ffff;
+  }
+  
+  .nav-btn{
+    margin-right:48px;
+    width:64px;
+    height:28px;
+    border:none;
+    background-color:rgb(1, 134, 134);
+    color:#cccc;
+    border-radius:3px;
+    transition:.5s ease-in-out;
+    cursor:pointer;
+  }
+  
+  .nav-btn:hover{
+    background-color:rgb(2, 205, 205);
+  }
+  
+  .hire-me{
+    color:white;
+    text-decoration:none;
+  }
+  
+  body{
+    width:100vw;
+    height:100vh;
+    background-color: #01013e;
+    overflow-x:hidden;
+  }
+
+  .welcome-container{
+    text-align: center;
+    margin-top:100px;
+    height:100vh;
+  }
+
+  .nav{
+    position:fixed;
+    top:0;
+    z-index: 10;
+  }
+
+  .welcome-header{
+    font-size: 35px;
+  }
+
+  .portfolio{
+    color: magenta;
+  }
+
+  .welcome-header,
+  .i-am
+  {
+    background: linear-gradient(to top,cyan, magenta);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .wemoren
+  {
+    color:cyan;
+  }
+
+  .enthus{
+    color:#cccc;
+  }
+
+  .alias{
+    font-size: 16px;
+  }
+  
+  #About{
+    width: 100vw;
+    height:300px;
+    background-color:#01013e;
+    
+  }
+
+  .about-me{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    margin-top:-64x;
+    text-align:center;
+    gap:32px;
+    
+  }
+
+  .about-me-text-container{
+    margin: 10px auto;
+  }
+
+  .section-img{
+    height:150px;
+    border-radius:50%;
+    cursor: pointer;
+    margin-top:38px;
+  }
+
+  .about-me-header{
+    color:rgb(176, 17, 176);
+    font-size:35px;
+    margin-top:54px;
+  }
+
+  .about-me-text{
+    color:#cccc;
+  }
+
+  #projects{
+    width: 100vw;
+    height:60vh;
+    background-color:rgb(1, 56, 49) ;
+  }
+
+  
+  .tile{
+    text-align: center;
+    padding-top: 12px;
+    width: 250px;
+    height: 200px;
+    background-color: #ccc;
+  }
+
+  .tile-header{
+    width: 100%;
+    height: 45px;
+    margin-top: -16px;
+    background-color: rgb(2, 103, 90);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+  }
+
+  .tile-header:hover{
+    background-color: rgb(4, 131, 131);
+  }
+
+  .tile a{
+    text-decoration: none;
+    color: #ccc;
+  }
+
+  #projects{
+    width: 100vw;
+    height: 1350px;;
+    background-color:rgb(1, 56, 49) ;
+  }
+
+  .basic-projects{
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: rgb(182, 4, 182);
+  }
+
+  .tile-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100vw;
+    height: 80%;
+  }
+
+  .tile{
+    width: 250px;
+    height: 200px;
+    background-color: #ccc;
+  }
+
+
+  #services{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    background-color: rgb(2, 42, 42);
+  }
+
+  .services-header{
+    text-align:center;
+    margin-bottom: 20px;
+    font-size: 35px;
+    color:rgb(176, 17, 176);
+  }
+
+  .services-div{
+    display:flex;
+    gap:12px;
+  }
+
+  .vertical-rule{
+    border-left:2px solid #ccc;
+    height:25px;
+  }
+
+  .service-items{
+    color:#cccc;
+  }
+
+  .social-links{
+    display:flex;
+    gap:8px;
+    margin-top:16px;
+  }
+
+  .footer-links{
+    color:rgb(4, 131, 131);
+    transition:.5s ease-in-out;
+    font-size:25px;
+  }
+  .footer-links:hover{
+    color:rgb(2, 205, 205);
+    transition:.5s ease-in-out;
+  }
+
+  .footer-btn{
+    margin-top:25px;
+    border:none;
+    border-radius:3px;
+    width:192px;
+    height:40px;
+    background-color:rgb(1, 134, 134);
+    transition:.5s ease-in-out;
+    cursor:pointer;
+  }
+
+  .lets-talk{
+    color:#ccc;
+    font-size:25px;
+  }
+
+  .footer-btn:hover{
+    background-color:rgb(2, 205, 205)
+  }
+
+  .lets-talk{
+    text-decoration: none;
+  }
+
+  .welcome-container{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .about-me-text-container{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  
+  @media(max-width:640px) {
+    .logo{
+      display:none;
+    }
+
+    .nav-btn{
+      position: absolute;
+      right: 0;
+      
+    }
+
+    #navbar{
+      display:flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .nav-items{
+      display: none;
+    }
+
+    .about-me-text-container{
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+
+    #openSideNav{
+      position: absolute;
+      left: 35px;
+      color: #ccc;
+      font-size: 25px;
+      cursor: pointer;
+      display: flex;
+    }
+
+    .about-me-text-container{
+      margin-top: -200px;
+    }
+  }
+
+  @media(max-width:420px){
+    .welcome-container{
+      margin-left: 16px;
+      margin-right: 16px;
+    }
+
+    .service-items{
+      font-size: 14px;
+    }
+
+    .basic-projects{
+      font-size: 22px;
+      margin-right: 16px;
+      margin-left: 16px;
+    }
+
+    .services-div{
+      margin-right: 8px;
+      margin-left: 8px;
+    }
+
+  }
+
+  
