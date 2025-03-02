@@ -470,4 +470,11 @@
 
   }
 
+  @media(max-width:320px){
+    .nav-btn{
+      width: 64px;
+      font-size: 12px;
+    }
+  }
+
   
