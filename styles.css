@@ -325,6 +325,17 @@
     background-color: #ccc;
   }
 
+  
+  .card-img1{
+    height:75px;
+    width: 100%;
+  }
+
+  .img-container-1{
+    max-width: 250px;
+
+  }
+
 
   #services{
     height:100vh;
