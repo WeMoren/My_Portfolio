@@ -432,9 +432,21 @@
     }
 
     .nav-btn{
+      
+      
+    }
+
+    .nav-btn{
       position: absolute;
       right: 0;
-      
+      width:70px;
+      height:28px;
+      border:none;
+      background-color:rgb(1, 134, 134);
+      color:#cccc;
+      border-radius:3px;
+      transition:.5s ease-in-out;
+      cursor:pointer;
     }
 
     #navbar{
