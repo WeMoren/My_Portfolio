@@ -21,13 +21,13 @@
     display:flex;
     align-items:center;
     justify-content:space-between;
-    background-color:#191970;
+    background-color:rgb(3, 37, 32) ;
     z-index:10;
   }
 
   .side-navbar{
     width: 250px;
-    background-color: #191970;
+    background-color:rgb(3, 37, 32) ;
     display: none;
     z-index: 1000;
     height: 100vh;
@@ -175,7 +175,7 @@
   body{
     width:100vw;
     height:100vh;
-    background-color: #01013e;
+    background-color:rgb(3, 37, 32) ;
     overflow-x:hidden;
   }
 
@@ -223,7 +223,7 @@
   #About{
     width: 100vw;
     height:300px;
-    background-color:#01013e;
+    background-color:rgb(3, 37, 32) ;
     
   }
 
@@ -262,7 +262,7 @@
   #projects{
     width: 100vw;
     height:60vh;
-    background-color:rgb(1, 56, 49) ;
+    background-color:rgb(3, 37, 32) ;
   }
 
   
@@ -284,13 +284,16 @@
     justify-content: center;
     cursor: pointer;
     transition: .3s ease-in-out;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  
   }
 
   .tile-header:hover{
     background-color: rgb(4, 131, 131);
   }
 
-  .tile a{
+  .header{
     text-decoration: none;
     color: #ccc;
   }
@@ -298,7 +301,7 @@
   #projects{
     width: 100vw;
     height: 1350px;;
-    background-color:rgb(1, 56, 49) ;
+    background-color:rgb(3, 37, 32) ;
   }
 
   .basic-projects{
@@ -327,8 +330,11 @@
 
   
   .card-img1{
-    height:75px;
+    height:100%;
     width: 100%;
+    cursor:pointer ;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
   }
 
   .img-container-1{
@@ -455,6 +461,15 @@
 
     .about-me-text-container{
       margin-top: -200px;
+    }
+
+    .tile-container{
+      gap: 18rem;
+    }
+
+    #services{
+      margin-top: 1600px;
+      background-color:rgb(1, 25, 25);
     }
   }
 
