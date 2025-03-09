@@ -153,7 +153,7 @@
   
   .nav-btn{
     margin-right:48px;
-    width:64px;
+    width:70px;
     height:28px;
     border:none;
     background-color:rgb(1, 134, 134);
@@ -170,6 +170,7 @@
   .hire-me{
     color:white;
     text-decoration:none;
+    text-align: center;
   }
   
   body{
@@ -498,9 +499,17 @@
   }
 
   @media(max-width:320px){
+    
     .nav-btn{
-      width: 64px;
-      font-size: 12px;
+      margin-right:48px;
+      width:70px;
+      height:28px;
+      border:none;
+      background-color:rgb(1, 134, 134);
+      color:#cccc;
+      border-radius:3px;
+      transition:.5s ease-in-out;
+      cursor:pointer;
     }
   }
 
