@@ -154,7 +154,7 @@
   
   .nav-btn{
     margin-right:48px;
-    width:70px;
+    width:100px;
     height:28px;
     border:none;
     background-color:rgb(1, 134, 134);
@@ -451,7 +451,7 @@
     .nav-btn{
       position: absolute;
       right: 0;
-      width:70px;
+      width:100px;
       height:28px;
       border:none;
       background-color:rgb(1, 134, 134);
